@@ -81,8 +81,11 @@ const openAlertModal = () => {
                   <div key={index} className="border border-gray-200 p-4 text-sm md:text-base rounded-lg shadow-sm bg-gray-50">
                     <p className="font-medium  mb-2">{GeneralText.label.traveler} {index + 1}: <span className="font-normal">{traveler.completeName}</span></p>
                     <p>
-                      <span className="font-medium">{GeneralText.label.travelerDateBirth}</span> {dayjs(traveler.dateBirth).format('DD/MM/YY')}
+                      <span className="font-medium">Edad:</span> 
                       {traveler.dateBirth && ` (${calculateAge(traveler.dateBirth)})`}
+                    </p>
+                    <p>
+                      <span className="font-medium">{GeneralText.label.travelerDateBirth}</span> {dayjs(traveler.dateBirth).format('DD/MM/YY')}
                     </p>
                     <p ><span className="font-medium">{GeneralText.label.travelerDocumentId}</span> {traveler.documentType} - {traveler.documentationId}</p>
                   </div>
