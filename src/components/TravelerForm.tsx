@@ -16,6 +16,8 @@ export default function TravelerForm({
   documentTypes
 }: TravelerFormProps) {
 
+  const maxDate = dayjs().subtract(5, 'year').format("YYYY-MM-DD");
+  
   return (
     <div className="flex flex-col p-5 border border-border rounded-md gap-3">
       <h3 className="font-semibold text-lg">Viajero {index + 1}</h3>
@@ -55,7 +57,7 @@ export default function TravelerForm({
           id={`travelerBirth-${index}`}
           className="border-1 rounded-sm p-2 border-border w-full"
           value={traveler.dateBirth}
-          max={dayjs().format("YYYY-MM-DD")}
+          max={maxDate}
           onChange={(e) =>
             handleTravelerChange(index, "dateBirth", e.target.value)
           }
