@@ -19,7 +19,7 @@ export const GeneralText  = {
       departureDate: "Fecha de salida:",
       returnDate: "Fecha de regreso:",
       flightClass: "Clase de vuelo:",
-      price: "Precio (No incluye servicios adicionales):",
+      price: "Precio:",
       travelersQuantity: "Indique la cantidad de viajeros:",
       travelersQuantityIndication: "Cantidad de viajeros:",
       travelerName: "Nombre completo:",
@@ -33,7 +33,7 @@ export const GeneralText  = {
       preferentialSeatingIndication: "Asiento preferencial:",
       specialAssistanceIndication: "Asistencia especial:",
       specialAssistanceDetails: "Detalles de asistencia especial:",
-      flightCost: "Costo de vuelo:"
+      flightCost: "Costo total de vuelo:",
     },
     placeholder: {
         selectDestination: "Escriba o seleccione un destino",
