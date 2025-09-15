@@ -69,8 +69,8 @@ const openAlertModal = () => {
             
             <div className="space-y-3">
               <p ><span className="font-semibold">{GeneralText.label.destination}</span> {flight.destination}</p>
-              <p ><span className="font-semibold">{GeneralText.label.departureDate}</span> {flight.departureDate}</p>
-              <p ><span className="font-semibold">{GeneralText.label.returnDate}</span> {flight.returnDate}</p>
+              <p ><span className="font-semibold">{GeneralText.label.departureDate}</span> {dayjs(flight.departureDate).format('DD/MM/YY')}</p>
+              <p ><span className="font-semibold">{GeneralText.label.returnDate}</span> {dayjs(flight.returnDate).format('DD/MM/YY')}</p>
               <p ><span className="font-semibold">{GeneralText.label.travelersQuantityIndication}</span> {flight.travelersQuantity}</p>
               <p ><span className="font-semibold">{GeneralText.label.flightClass}</span> {flight.class}</p>
             </div>
