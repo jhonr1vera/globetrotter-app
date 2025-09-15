@@ -23,7 +23,7 @@ export const GeneralText  = {
       travelersQuantity: "Indique la cantidad de viajeros:",
       travelersQuantityIndication: "Cantidad de viajeros:",
       travelerName: "Nombre completo:",
-      travelerDateBirth: "Fecha de nacimiento:",
+      travelerDateBirth: "Fecha de nacimiento (mínimo 5 años de edad):",
       travelerDocumentId: "Número de documento:",
       insurance: "¿Desea agregar seguro de viaje?",
       preferentialSeating: "¿Deseas seleccionar asientos preferenciales?",
