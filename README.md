@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Globetrotter APP
 
-## Getting Started
+### Technologies
+- TypeScript
+- Next.js
 
-First, run the development server:
+### Requirements
+- Node +17
+
+### Aditional dependencies
+- Tailwind.css
+- day.js
+
+## Development Setup
+
+1. Initial setup for install dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# /main-directory
+$ npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Start development server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# /main-directory
+$ npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- 📂 `src` - Application source code
+- 📂 `src/constants` - Constant values and string definitions
+- 📂 `src/components` - Reusable components
+- 📂 `src/app` - Next.js app router pages and layout
+  - 📄 `src/app/globals.css` - Global styles and CSS custom properties (color variables)
+  - 📄 `src/app/types.tsx` - Global entities types
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Español
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Tecnologías
+- TypeScript
+- Next.js
 
-## Deploy on Vercel
+### Requisitos
+- Node +17
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Dependencias adicionales
+- Tailwind.css
+- day.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Configuración de desarrollo
+
+1. Configuración inicial para instalar dependencias
+
+```bash
+# /directorio principal
+$ npm install
+```
+
+##  Iniciar el servidor de desarrollo
+
+```bash
+# /directorio principal
+$ npm run dev
+```
+
+## Estructura del proyecto
+
+- 📂 `src`: Código fuente de la aplicación
+- 📂 `src/constants`: Valores constantes y definiciones de cadenas
+- 📂 `src/components`: Componentes reutilizables
+- 📂 `src/app`: Páginas y diseño del enrutador de la aplicación Next.js
+  - 📄 `src/app/globals.css`: Estilos globales y propiedades CSS personalizadas (variables de color)
+  - 📄 `src/app/types.tsx` - Tipos de las entidades globales
+
+## Author
+
+- [@Jhon Rivera](https://www.github.com/jhonr1vera)
