@@ -85,7 +85,7 @@ const openAlertModal = () => {
                       {traveler.dateBirth && ` ${calculateAge(traveler.dateBirth)}`}
                     </p>
                     <p>
-                      <span className="font-medium">{GeneralText.label.travelerDateBirth}</span> {dayjs(traveler.dateBirth).format('DD/MM/YY')}
+                      <span className="font-medium">{GeneralText.label.travelerDateBirthShow}</span> {dayjs(traveler.dateBirth).format('DD/MM/YY')}
                     </p>
                     <p ><span className="font-medium">{GeneralText.label.travelerDocumentId}</span> {traveler.documentType} - {traveler.documentationId}</p>
                   </div>
