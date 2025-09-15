@@ -70,8 +70,8 @@ export default function FlightBooking({
     );
 
     if (filteredFlight) {
-    //   return filteredFlight.priceUSD * flight.travelersQuantity;
-        return filteredFlight.priceUSD
+      return filteredFlight.priceUSD * flight.travelersQuantity;
+        // return filteredFlight.priceUSD
     }
     return undefined;
   }, [filteredDestinations, flight.class, flight.travelersQuantity]);
